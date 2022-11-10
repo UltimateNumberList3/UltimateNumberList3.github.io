@@ -4,8 +4,9 @@
   "private": true,
   "description": "",
   "scripts": {
-    "build": "npx webpack && xcopy public dist /E /H /C /I /Y",
-    "sass-session": "npx sass --watch sass/index.sass:public/css/style.css"
+    "build-ts": "npx webpack && xcopy public dist /E /H /C /I /Y",
+    "sass-update": "npx sass sass/index.sass public/css/index.css",
+    "copy-public": "cp -vfR public dist"
   },
   "repository": {
     "type": "git",

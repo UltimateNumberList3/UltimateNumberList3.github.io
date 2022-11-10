@@ -693,6 +693,43 @@ const NumberList: Chapters = [
                                         symbols: [
                                             "notknown"
                                         ]
+                                    },
+                                    {
+                                        word: "One Sexvigintillion",
+                                        number: "10^81",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "One Septemvigintillion",
+                                        number: "10^84",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "One Octovigintillion",
+                                        number: "10^87",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "One Novemvigintillion",
+                                        number: "10^90",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "One Trigintillion",
+                                        number: "10^93",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Googol",
+                                        number: "10^100",
+                                        symbols: [
+                                            "featured"
+                                        ]
+                                    },
+                                    {
+                                        word: "Googolty",
+                                        number: "10^101",
+                                        symbols: []
                                     }
                                 ]
                             }

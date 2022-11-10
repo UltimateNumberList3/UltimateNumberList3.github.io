@@ -24,6 +24,7 @@ jobs:
         npm run sass-update
 
     - name: Copy public/ To dist/
+      if: github.ref == 'refs/heads/develop' 
       run: |
         npm run copy-public
       

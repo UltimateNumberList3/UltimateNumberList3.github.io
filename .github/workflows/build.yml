@@ -24,11 +24,11 @@ jobs:
         npm run sass-update
 
     - name: Copy public/ To dist/
-      if: github.ref == 'refs/heads/develop' 
       run: |
         npm run copy-public
       
     - name: Deploy
+      if: github.ref == 'refs/heads/main'
       uses: peaceiris/actions-gh-pages@v3
       with:
          github_token: ${{ secrets.GITHUB_TOKEN }}

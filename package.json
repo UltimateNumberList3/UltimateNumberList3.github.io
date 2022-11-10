@@ -4,7 +4,7 @@
   "private": true,
   "description": "",
   "scripts": {
-    "build-ts": "npx webpack && xcopy public dist /E /H /C /I /Y",
+    "build-ts": "npx webpack",
     "sass-update": "npx sass sass/index.sass public/css/index.css",
     "copy-public": "cp -vfR public dist"
   },

@@ -1,0 +1,63 @@
+@use 'themes/default'
+
+body
+    background-color: default.$background-normal-color
+    color: default.$text-normal-color
+    font-family: monospace
+    margin: 0
+
+#loadingScreen
+    color: default.$text-error-color
+    text-align: center
+    h1
+        color: default.$text-normal-color
+        font-size: 3em
+
+#app
+    margin: 8px
+    overflow: auto
+
+.listChapter, .listClass, .listSection, .listSubSection
+    margin: 0px 8px
+    padding: 8px
+    border-style: dashed none
+    border-width: 2px
+    border-color: default.$text-normal-color
+    &:first-child
+        border-top-left-radius: 20px
+        border-top-right-radius: 20px
+        border-top-style: hidden
+        margin-top: 8px
+    &:last-child
+        border-bottom-left-radius: 20px
+        border-bottom-right-radius: 20px
+        border-bottom-style: hidden
+        margin-bottom: 8px
+
+.listChapter
+    background-color: default.$list-chapter-color
+    font-size: 32px
+.listClass
+    background-color: default.$list-class-color
+    font-size: 26px
+.listSection
+    background-color: default.$list-section-color
+    font-size: 22px
+.listSubSection
+    background-color: default.$list-subsection-color
+    font-size: 18px
+.listNumber
+    margin-left: 18px
+
+.milestone
+    color: #ff9d00
+    font-size: 16px
+.milestone2
+    color: #f00
+    font-size: 16px
+.featured
+    color: #c800ff
+    font-size: 16px
+.notknown
+    color: #000
+    font-size: 16px

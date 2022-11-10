@@ -6,7 +6,7 @@
   "scripts": {
     "build-ts": "npx webpack",
     "sass-update": "npx sass sass/index.sass public/css/index.css",
-    "copy-public": "cp -vfR public dist"
+    "copy-public": "cp -vfR public/** dist"
   },
   "repository": {
     "type": "git",

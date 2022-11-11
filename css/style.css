@@ -29,6 +29,10 @@ body {
   display: inline-block;
 }
 
+.hidden {
+  display: none;
+}
+
 #app {
   margin: 8px;
   overflow: auto;

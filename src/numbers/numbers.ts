@@ -730,6 +730,16 @@ const NumberList: Chapters = [
                                         word: "Googolty",
                                         number: "10^101",
                                         symbols: []
+                                    },
+                                    {
+                                        word: "Quadragintillion",
+                                        number: "10^123",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Quinquagintillion",
+                                        number: "10^153",
+                                        symbols: []
                                     }
                                 ]
                             }

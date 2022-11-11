@@ -260,7 +260,7 @@ const NumberList: Chapters = [
                                         symbols: []
                                     },
                                     {
-                                        word: "Four Quarters",
+                                        word: "Three Quarters",
                                         number: "0.75",
                                         symbols: []
                                     },
@@ -483,6 +483,11 @@ const NumberList: Chapters = [
                                         ]
                                     },
                                     {
+                                        word: "16-bit Integer Limit",
+                                        number: "65,535",
+                                        symbols: []
+                                    },
+                                    {
                                         word: "One Myriad",
                                         number: "10,000",
                                         symbols: [
@@ -532,6 +537,11 @@ const NumberList: Chapters = [
                             {
                                 name: "Intermediate -illions",
                                 listnumbers: [
+                                    {
+                                        word: "32-bit Integer Limit",
+                                        number: "2,147,483,647",
+                                        symbols: []
+                                    },
                                     {
                                         word: "One Dialogue",
                                         number: "10,000,000,000",
@@ -737,9 +747,65 @@ const NumberList: Chapters = [
                                         symbols: []
                                     },
                                     {
+                                        word: "Quintyllion",
+                                        number: "10^128",
+                                        symbols: []
+                                    },
+                                    {
                                         word: "Quinquagintillion",
                                         number: "10^153",
                                         symbols: []
+                                    },
+                                    {
+                                        word: "Sexagintillion",
+                                        number: "10^183",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Gargoogol",
+                                        number: "10^200",
+                                        symbols: [
+                                            "featured"
+                                        ]
+                                    },
+                                    {
+                                        word: "Septuagintillion",
+                                        number: "10^213",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Octogintillion",
+                                        number: "10^243",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Sextyllion",
+                                        number: "10^256",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Nonagintillion",
+                                        number: "10^273",
+                                        symbols: []
+                                    }
+                                ]
+                            },
+                            {
+                                name: "Advanced -illions",
+                                listnumbers: [
+                                    {
+                                        word: "Centillion",
+                                        number: "10^303",
+                                        symbols: [
+                                            "featured"
+                                        ]
+                                    },
+                                    {
+                                        word: "Double Precision Limit",
+                                        number: "2^1024 (~1.797x10^308)",
+                                        symbols: [
+                                            "featured"
+                                        ]
                                     }
                                 ]
                             }

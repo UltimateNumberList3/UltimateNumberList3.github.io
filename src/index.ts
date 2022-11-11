@@ -2,8 +2,7 @@ import { Chapter, Class, Section, SubSection, ListNumber } from "./numbers/types
 import { NumberList } from "./numbers/numbers"
 import { returnSymbols } from "./numbers/symbols"
 
-let elementText: string = `<div id="numberList">
-<span id="totalNumbers"></span>`
+let elementText: string = `<div id="numberList">`
 
 let totalNumbers: number = 0
 
@@ -46,6 +45,6 @@ elementText += "</div>"
 
 addEventListener('DOMContentLoaded', function(event: Event) {
     this.document.getElementById("loadingScreen")!.style.display = "none"
-    this.document.getElementById("app")!.innerHTML = elementText
+    this.document.getElementById("app")!.innerHTML += elementText
     this.document.getElementById("totalNumbers")!.innerHTML = "Total numbers collected in list: "+String(totalNumbers)
 });

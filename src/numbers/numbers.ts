@@ -1,4 +1,4 @@
-import { Chapter, Class, Section, SubSection, ListNumber } from "./types"
+import { Chapter } from "./types"
 
 type Chapters = {
     [key: number]: Chapter

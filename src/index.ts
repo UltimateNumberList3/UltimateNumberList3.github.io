@@ -2,7 +2,10 @@ import { Chapter, Class, Section, SubSection, ListNumber } from "./numbers/types
 import { NumberList } from "./numbers/numbers"
 import { returnSymbols } from "./numbers/symbols"
 
-let elementText: string = `<div id="numberList">`
+let elementText: string = `<div id="numberList">
+<span id="totalNumbers"></span>`
+
+let totalNumbers: number = 0
 
 for (const ichapter in NumberList) {
     const ochapter: Chapter = NumberList[<any>Number(ichapter)]
@@ -29,6 +32,7 @@ for (const ichapter in NumberList) {
                     elementText += `<br><span class="listNumber">
                     ${olistnumber.word} ${symbols}- ${olistnumber.number}
                     </span>`
+                    totalNumbers += 1
                 }
                 elementText += "</div>"
             }
@@ -43,4 +47,5 @@ elementText += "</div>"
 addEventListener('DOMContentLoaded', function(event: Event) {
     this.document.getElementById("loadingScreen")!.style.display = "none"
     this.document.getElementById("app")!.innerHTML = elementText
+    this.document.getElementById("totalNumbers")!.innerHTML = "Total numbers collected in list: "+String(totalNumbers)
 });

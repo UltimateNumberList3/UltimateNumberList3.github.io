@@ -7,9 +7,11 @@ body {
 
 #loadingScreen {
   color: #f00;
+  font-weight: 800;
   text-align: center;
 }
 #loadingScreen h1 {
+  font-weight: 400;
   color: #fff;
   font-size: 3em;
 }
@@ -76,24 +78,29 @@ body {
   margin-left: 18px;
 }
 
-.milestone {
+[id$=Symbol]:not([id^=error]) {
+  font-size: 16px;
+}
+
+.milestoneSymbol {
   color: #ff9d00;
-  font-size: 16px;
 }
 
-.milestone2 {
-  color: #f00;
-  font-size: 16px;
+.milestone2Symbol {
+  color: #0f0;
 }
 
-.featured {
+.featuredSymbol {
   color: #c800ff;
-  font-size: 16px;
 }
 
-.notknown {
-  color: #000;
-  font-size: 16px;
+.notKnownSymbol {
+  color: #ff9d00;
+}
+
+.errorSymbol {
+  color: #f00;
+  font-weight: 800;
 }
 
 /*# sourceMappingURL=style.css.map */

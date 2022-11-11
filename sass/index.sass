@@ -8,18 +8,20 @@ body
 
 #loadingScreen
     color: default.$text-error-color
+    font-weight: default.$text-error-weight
     text-align: center
     h1
+        font-weight: 400
         color: default.$text-normal-color
         font-size: 3em
 
 #bar
-    background-color: #000
+    background-color: default.$bar-normal-color
     span:first-child
         font-size: 54px
-        font-weight: 800
+        font-weight: default.$bar-normal-weight
         margin-left: 6px
-        background: linear-gradient(30deg, #f40, #f04)
+        background: default.$bar-normal-gradient
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
         display: inline-block
@@ -60,15 +62,16 @@ body
 .listNumber
     margin-left: 18px
 
-.milestone
-    color: #ff9d00
+[id$=Symbol]:not([id^=error])
     font-size: 16px
-.milestone2
-    color: #f00
-    font-size: 16px
-.featured
-    color: #c800ff
-    font-size: 16px
-.notknown
-    color: #000
-    font-size: 16px
+.milestoneSymbol
+    color: default.$list-milestone-color
+.milestone2Symbol
+    color: default.$list-milestone2-color
+.featuredSymbol
+    color: default.$list-featured-color
+.notKnownSymbol
+    color: default.$list-milestone-color
+.errorSymbol
+    color: default.$text-error-color
+    font-weight: default.$text-error-weight

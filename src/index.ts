@@ -44,7 +44,8 @@ for (const ichapter in NumberList) {
 elementText += "</div>"
 
 addEventListener('DOMContentLoaded', function(event: Event) {
-    this.document.getElementById("loadingScreen")!.style.display = "none"
     this.document.getElementById("app")!.innerHTML += elementText
     this.document.getElementById("totalNumbers")!.innerHTML = "Total numbers collected in list: "+String(totalNumbers)
+    this.document.getElementById("loadingScreen")!.className = "hidden"
+    this.document.getElementById("app")!.className = ""
 });

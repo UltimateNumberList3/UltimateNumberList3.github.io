@@ -10,13 +10,16 @@ body
     color: default.$text-error-color
     font-weight: default.$text-error-weight
     text-align: center
+    margin-top: 68px
     h1
-        font-weight: 400
         color: default.$text-normal-color
-        font-size: 3em
+        font-size: 48px
 
 #bar
     background-color: default.$bar-normal-color
+    position: fixed
+    top: 0px
+    width: 100%
     span:first-child
         font-size: 54px
         font-weight: default.$bar-normal-weight
@@ -25,12 +28,16 @@ body
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
         display: inline-block
+        sup
+            font-size: 0.5em
+            vertical-align: text-top
 
 .hidden
     display: none
 
 #app
     margin: 8px
+    margin-top: 68px
     overflow: auto
 
 #totalNumbers

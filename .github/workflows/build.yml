@@ -2,7 +2,15 @@ name: Build
 
 on:
   push:
+    paths-ignore:
+      - "**.md"
+      - ".gitignore"
+      - ".github/dependabot.yml"
   pull_request:
+    paths-ignore:
+      - "**.md"
+      - ".gitignore"
+      - ".github/dependabot.yml"
   
 jobs:
   build:

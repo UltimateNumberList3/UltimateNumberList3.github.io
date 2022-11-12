@@ -1,13 +1,13 @@
 body {
   background-color: #222;
   color: #fff;
-  font-family: monospace;
+  font-family: "Roboto Mono";
   margin: 0;
 }
 
 #loadingScreen {
   color: #f00;
-  font-weight: 800;
+  font-weight: 700;
   text-align: center;
   margin-top: 68px;
 }
@@ -24,7 +24,7 @@ body {
 }
 #bar span:first-child {
   font-size: 54px;
-  font-weight: 800;
+  font-weight: 700;
   margin-left: 6px;
   background: linear-gradient(30deg, #f08, #f80);
   -webkit-background-clip: text;
@@ -116,7 +116,7 @@ body {
 
 .errorSymbol {
   color: #f00;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -41,7 +41,7 @@ const NumberList: Chapters = [
                                     },
                                     {
                                         word: "Googolpleximinex",
-                                        number: "10^(-10^10^100)",
+                                        number: "10^-(10^10^100)",
                                         symbols: []
                                     },
                                     {
@@ -739,7 +739,9 @@ const NumberList: Chapters = [
                                     {
                                         word: "Googolty",
                                         number: "10^101",
-                                        symbols: []
+                                        symbols: [
+                                            "notknown"
+                                        ]
                                     },
                                     {
                                         word: "Quadragintillion",
@@ -766,6 +768,7 @@ const NumberList: Chapters = [
                                         number: "10^200",
                                         symbols: [
                                             "featured"
+                                            "notknown"
                                         ]
                                     },
                                     {
@@ -805,6 +808,100 @@ const NumberList: Chapters = [
                                         number: "2^1024 (~1.797x10^308)",
                                         symbols: [
                                             "featured"
+                                        ]
+                                    },
+                                    {
+                                        word: "Googolding",
+                                        number: "10^500",
+                                        symbols: [
+                                            "notknown"
+                                        ]
+                                    },
+                                    {
+                                        word: "Septyllion",
+                                        number: "10^512",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Ducentillion",
+                                        number: "10^603",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Trucentillion",
+                                        number: "10^903",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Googolchime",
+                                        number: "10^1000",
+                                        symbols: [
+                                            "notknown"
+                                        ]
+                                    },
+                                    {
+                                        word: "Octyllion",
+                                        number: "10^1024",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Quadringentillion",
+                                        number: "10^1203",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Quingentillion",
+                                        number: "10^1503",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Sescentillion",
+                                        number: "10^1803",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Sescentillion",
+                                        number: "10^1803",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Nonyllion",
+                                        number: "10^2048",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Septingentillion",
+                                        number: "10^2103",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Octingentillion",
+                                        number: "10^2403",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Nongentillion",
+                                        number: "10^2703",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Millillion",
+                                        number: "10^3003",
+                                        symbols: [
+                                            "milestone"
+                                            "featured"
+                                        ]
+                                    },
+                                    {
+                                        word: "Decyllion",
+                                        number: "10^4096",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Googolbell",
+                                        number: "10^5000",
+                                        symbols: [
+                                            "notknown"
                                         ]
                                     }
                                 ]

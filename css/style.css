@@ -9,7 +9,7 @@ body {
   color: #f00;
   font-weight: 700;
   text-align: center;
-  margin-top: 68px;
+  margin-top: 80px;
 }
 #loadingScreen h1 {
   color: #fff;
@@ -42,7 +42,7 @@ body {
 
 #app {
   margin: 8px;
-  margin-top: 68px;
+  margin-top: 80px;
   overflow: auto;
 }
 

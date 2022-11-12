@@ -767,7 +767,7 @@ const NumberList: Chapters = [
                                         word: "Gargoogol",
                                         number: "10^200",
                                         symbols: [
-                                            "featured"
+                                            "featured",
                                             "notknown"
                                         ]
                                     },
@@ -888,7 +888,7 @@ const NumberList: Chapters = [
                                         word: "Millillion",
                                         number: "10^3003",
                                         symbols: [
-                                            "milestone"
+                                            "milestone",
                                             "featured"
                                         ]
                                     },

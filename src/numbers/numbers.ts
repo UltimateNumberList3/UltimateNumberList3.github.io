@@ -860,11 +860,6 @@ const NumberList: Chapters = [
                                         symbols: []
                                     },
                                     {
-                                        word: "Sescentillion",
-                                        number: "10^1803",
-                                        symbols: []
-                                    },
-                                    {
                                         word: "Nonyllion",
                                         number: "10^2048",
                                         symbols: []

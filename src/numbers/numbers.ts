@@ -897,25 +897,24 @@ const NumberList: Chapters = [
                                         number: "10^5000",
                                         symbols: [
                                             "notknown"
-                                            },
-                                            {
+                                        ]
+                                    },
+                                    {
                                         word: "Dumillillion",
                                         number: "10^6003",
                                         symbols: []
-                                            },
-                                            {
+                                    },
+                                    {
                                         word: "Trumillillion",
                                         number: "10^9003",
                                         symbols: []
-                                            },
-                                            {
+                                    },
+                                    {
                                         word: "Googoltoll",
                                         number: "10^10000",
                                         symbols: [
                                             "notknown"
                                         ]
-                                            },
-                                        ]   {
                                     }
                                 ]
                             }

@@ -2,9 +2,9 @@ import { Chapter, Class, Section, SubSection, ListNumber } from "./numbers/types
 import { NumberList } from "./numbers/numbers"
 import { returnSymbols } from "./numbers/symbols"
 
-let elementText: string = `<div id="numberList">`
+let elementText = `<div id="numberList">`
 
-let totalNumbers: number = 0
+let totalNumbers = 0
 
 for (const ichapter in NumberList) {
     const ochapter: Chapter = NumberList[<any>Number(ichapter)]

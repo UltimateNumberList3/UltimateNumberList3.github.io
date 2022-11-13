@@ -1,7 +1,7 @@
 import { ListNumber } from "./types"
 
 function returnSymbols(symbolNumber: ListNumber): string {
-    let symbols: string = ""
+    let symbols = ""
     for (const symbolI in symbolNumber.symbols) {
         switch (symbolNumber.symbols[symbolI]) {
             case "milestone": symbols += `<span class="milestoneSymbol">★</span>`; break

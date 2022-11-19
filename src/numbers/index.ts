@@ -1,10 +1,6 @@
-import { Chapter } from "./types"
+import { Chapter, Symbols } from "./types"
 
-type Chapters = {
-    [key: number]: Chapter
-}
-
-const NumberList: Chapters = [
+const NumberList: Chapter[] = [
     {
         name: "Googological",
         classes: [
@@ -21,7 +17,7 @@ const NumberList: Chapters = [
                                         word: "Zero",
                                         number: "0",
                                         symbols: [
-                                            "milestone2"
+                                            Symbols.BigMilestone
                                         ]
                                     },
                                     {
@@ -53,7 +49,7 @@ const NumberList: Chapters = [
                                         word: "One Googol-Minutia-Speck",
                                         number: "10^-110",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
@@ -65,21 +61,21 @@ const NumberList: Chapters = [
                                         word: "Ogol-Minutia",
                                         number: "10^-80",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
                                         word: "Gogol-Minutia",
                                         number: "10^-50",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
                                         word: "One Goby-Minutia",
                                         number: "10^-35",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
@@ -101,7 +97,7 @@ const NumberList: Chapters = [
                                         word: "One Minnow-Minutia",
                                         number: "10^-25",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
@@ -118,7 +114,7 @@ const NumberList: Chapters = [
                                         word: "One Guppy-Minutia",
                                         number: "10^-20",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
@@ -150,28 +146,28 @@ const NumberList: Chapters = [
                                         word: "One Eyelashmite-Speck",
                                         number: "0.000002",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
                                         word: "One Dustmite-Speck",
                                         number: "0.000005",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
                                         word: "One Cheesemite-Speck",
                                         number: "0.000008",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
                                         word: "One Clovermite-Speck",
                                         number: "0.00002",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
@@ -283,7 +279,7 @@ const NumberList: Chapters = [
                                         word: "One",
                                         number: "1",
                                         symbols: [
-                                            "milestone"
+                                            Symbols.Milestone
                                         ]
                                     },
                                     {
@@ -355,7 +351,7 @@ const NumberList: Chapters = [
                                         word: "Ten",
                                         number: "10",
                                         symbols: [
-                                            "featured"
+                                            Symbols.Featured
                                         ]
                                     },
                                     {
@@ -457,7 +453,7 @@ const NumberList: Chapters = [
                                         word: "One Hundred",
                                         number: "100",
                                         symbols: [
-                                            "featured"
+                                            Symbols.Featured
                                         ]
                                     }
                                 ]
@@ -479,7 +475,7 @@ const NumberList: Chapters = [
                                         word: "One Thousand",
                                         number: "1,000",
                                         symbols: [
-                                            "featured",
+                                            Symbols.Featured,
                                         ]
                                     },
                                     {
@@ -491,28 +487,28 @@ const NumberList: Chapters = [
                                         word: "One Myriad",
                                         number: "10,000",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
                                         word: "One Lakh",
                                         number: "100,000",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
                                         word: "One Million",
                                         number: "1,000,000",
                                         symbols: [
-                                            "featured"
+                                            Symbols.Featured
                                         ]
                                     },
                                     {
                                         word: "One Crore",
                                         number: "10,000,000",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
@@ -524,7 +520,7 @@ const NumberList: Chapters = [
                                         word: "One Billion",
                                         number: "1,000,000,000",
                                         symbols: [
-                                            "featured"
+                                            Symbols.Featured
                                         ]
                                     }
                                 ]
@@ -546,7 +542,7 @@ const NumberList: Chapters = [
                                         word: "One Dialogue",
                                         number: "10,000,000,000",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
@@ -573,7 +569,7 @@ const NumberList: Chapters = [
                                         word: "One Guppy",
                                         number: "10^20",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
@@ -605,7 +601,7 @@ const NumberList: Chapters = [
                                         word: "One Decillion",
                                         number: "10^33",
                                         symbols: [
-                                            "featured"
+                                            Symbols.Featured
                                         ]
                                     },
                                     {
@@ -637,7 +633,7 @@ const NumberList: Chapters = [
                                         word: "Gogol",
                                         number: "10^50",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
@@ -664,7 +660,7 @@ const NumberList: Chapters = [
                                         word: "One Vigintillion",
                                         number: "10^63",
                                         symbols: [
-                                            "featured"
+                                            Symbols.Featured
                                         ]
                                     },
                                     {
@@ -701,7 +697,7 @@ const NumberList: Chapters = [
                                         word: "Ogol",
                                         number: "10^80",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
@@ -733,14 +729,14 @@ const NumberList: Chapters = [
                                         word: "Googol",
                                         number: "10^100",
                                         symbols: [
-                                            "featured"
+                                            Symbols.Featured
                                         ]
                                     },
                                     {
                                         word: "Googolty",
                                         number: "10^101",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
@@ -767,8 +763,8 @@ const NumberList: Chapters = [
                                         word: "Gargoogol",
                                         number: "10^200",
                                         symbols: [
-                                            "featured",
-                                            "notknown"
+                                            Symbols.Featured,
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
@@ -800,21 +796,21 @@ const NumberList: Chapters = [
                                         word: "Centillion",
                                         number: "10^303",
                                         symbols: [
-                                            "featured"
+                                            Symbols.Featured
                                         ]
                                     },
                                     {
                                         word: "Double Precision Limit",
                                         number: "2^1024 (~1.797x10^308)",
                                         symbols: [
-                                            "featured"
+                                            Symbols.Featured
                                         ]
                                     },
                                     {
                                         word: "Googolding",
                                         number: "10^500",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
@@ -836,7 +832,7 @@ const NumberList: Chapters = [
                                         word: "Googolchime",
                                         number: "10^1000",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
@@ -883,8 +879,8 @@ const NumberList: Chapters = [
                                         word: "Millillion",
                                         number: "10^3003",
                                         symbols: [
-                                            "milestone",
-                                            "featured"
+                                            Symbols.Milestone,
+                                            Symbols.Featured
                                         ]
                                     },
                                     {
@@ -896,12 +892,17 @@ const NumberList: Chapters = [
                                         word: "Googolbell",
                                         number: "10^5000",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
                                         ]
                                     },
                                     {
                                         word: "Dumillillion",
                                         number: "10^6003",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Undecyllion",
+                                        number: "10^8192",
                                         symbols: []
                                     },
                                     {
@@ -913,7 +914,115 @@ const NumberList: Chapters = [
                                         word: "Googoltoll",
                                         number: "10^10000",
                                         symbols: [
-                                            "notknown"
+                                            Symbols.NotKnown
+                                        ]
+                                    },
+                                    {
+                                        word: "Quadrimillillion",
+                                        number: "10^12003",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Quinmillillion",
+                                        number: "10^15003",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Duodecyllion",
+                                        number: "10^16384",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Sexmillillion",
+                                        number: "10^18003",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Septimillillion",
+                                        number: "10^21003",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Octimillillion",
+                                        number: "10^24003",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Nonimillillion",
+                                        number: "10^27003",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Myrillion",
+                                        number: "10^30003",
+                                        symbols: [
+                                            Symbols.Featured
+                                        ]
+                                    },
+                                    {
+                                        word: "Tredecyllion",
+                                        number: "10^32768",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Quattordecyllion",
+                                        number: "10^65536",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Googolgong",
+                                        number: "10^100000",
+                                        symbols: [
+                                            Symbols.NotKnown
+                                        ]
+                                    },
+                                    {
+                                        word: "Quindecyllion",
+                                        number: "10^131072",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Sexdecyllion",
+                                        number: "10^262144",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Centimillillion",
+                                        number: "10^300003",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Septendecyllion",
+                                        number: "10^524288",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Maximusmillion",
+                                        number: "10^1000000",
+                                        symbols: [
+                                            Symbols.NotKnown
+                                        ]
+                                    },
+                                    {
+                                        word: "Octodecyllion",
+                                        number: "10^1048576",
+                                        symbols: []
+                                    },
+                                    {
+                                        word: "Novemdecyllion",
+                                        number: "10^2097152",
+                                        symbols: []
+                                    }
+                                ]
+                            },
+                            {
+                                name: "-yllions",
+                                listnumbers: [
+                                    {
+                                        word: "Micrillion",
+                                        number: "10^3000003",
+                                        symbols: [
+                                            Symbols.Featured
                                         ]
                                     }
                                 ]

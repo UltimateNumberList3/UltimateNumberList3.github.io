@@ -36,8 +36,10 @@ body
     display: none
 
 #app
+    text-align: center
     margin: 8px
     margin-top: default.$bar-normal-spacing
+    margin-bottom: 40px
     overflow: auto
 
 #totalNumbers
@@ -88,3 +90,30 @@ body
 .errorSymbol
     color: default.$text-error-color
     font-weight: default.$text-error-weight
+
+#changelog
+    text-align: center
+
+.version
+    background-color: default.$list-class-color
+    margin: 8px
+    padding-bottom: 4px
+    border-radius: 20px
+    .versionTitle
+        font-weight: 400
+        margin: 8px
+    .versionNotes > .note
+        &.noteaddition
+            color: #2ef72e
+        &.notechange
+            color: #ffe000
+        .notesymbol
+            margin-right: 8px
+    &.prerelease
+        background-color: default.$list-chapter-color
+        .versionTitle
+            font-weight: 300
+    &.major
+        background-color: default.$list-section-color
+        .versionTitle
+            font-weight: 800

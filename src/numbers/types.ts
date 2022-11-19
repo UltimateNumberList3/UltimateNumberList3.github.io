@@ -1,37 +1,34 @@
 type Chapter = {
     name: string;
-    classes: {
-        [key: number]: Class;
-    };
+    classes: Class[];
 }
 
 type Class = {
     name: string;
-    sections: {
-        [key: number]: Section;
-    };
+    sections: Section[];
 }
 
 type Section = {
     name: string;
-    subsections: {
-        [key: number]: SubSection;
-    };
+    subsections: SubSection[];
 }
 
 type SubSection = {
     name: string;
-    listnumbers: {
-        [key: number]: ListNumber;
-    };
+    listnumbers: ListNumber[];
+}
+
+enum Symbols {
+    Milestone,
+    BigMilestone,
+    Featured,
+    NotKnown
 }
 
 type ListNumber = {
     word: string;
     number: string;
-    symbols: {
-        [key: number]: string;
-    };
+    symbols: Symbols[];
 }
 
-export {Chapter, Class, Section, SubSection, ListNumber}
+export {Chapter, Class, Section, SubSection, ListNumber, Symbols}

@@ -1,6 +1,7 @@
 import { Chapter, Class, Section, SubSection, ListNumber } from "./numbers/types"
-import { NumberList } from "./numbers/numbers"
+import { NumberList } from "./numbers"
 import { returnSymbols } from "./numbers/symbols"
+import { Changelog } from "./changelog"
 
 let elementText = `<div id="numberList">`
 
@@ -46,6 +47,7 @@ elementText += "</div>"
 addEventListener('DOMContentLoaded', function(event: Event) {
     this.document.getElementById("app")!.innerHTML += elementText
     this.document.getElementById("totalNumbers")!.innerHTML = String(totalNumbers)
+    this.document.getElementById("app")!.innerHTML += Changelog
     this.document.getElementById("loadingScreen")!.className = "hidden"
     this.document.getElementById("app")!.className = ""
 });

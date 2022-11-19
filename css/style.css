@@ -41,8 +41,10 @@ body {
 }
 
 #app {
+  text-align: center;
   margin: 8px;
   margin-top: 80px;
+  margin-bottom: 40px;
   overflow: auto;
 }
 
@@ -117,6 +119,42 @@ body {
 .errorSymbol {
   color: #f00;
   font-weight: 700;
+}
+
+#changelog {
+  text-align: center;
+}
+
+.version {
+  background-color: #444;
+  margin: 8px;
+  padding-bottom: 4px;
+  border-radius: 20px;
+}
+.version .versionTitle {
+  font-weight: 400;
+  margin: 8px;
+}
+.version .versionNotes > .note.noteaddition {
+  color: #2ef72e;
+}
+.version .versionNotes > .note.notechange {
+  color: #ffe000;
+}
+.version .versionNotes > .note .notesymbol {
+  margin-right: 8px;
+}
+.version.prerelease {
+  background-color: #333;
+}
+.version.prerelease .versionTitle {
+  font-weight: 300;
+}
+.version.major {
+  background-color: #555;
+}
+.version.major .versionTitle {
+  font-weight: 800;
 }
 
 /*# sourceMappingURL=style.css.map */
